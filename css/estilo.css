@@ -1,0 +1,195 @@
+*{ /* Config para a página toda*/
+	margin: 0px; /* margem externa da página zerada */
+	padding: 0px; /*margem interna da página zerada */
+}
+body{
+	color: white;
+	background-color: black;
+	font-family: "Calibri", Helvetica, Arial
+}
+header{
+	width: 100%; /* Tamanho do header considerando a config responsiva */
+	height: 70px;
+	background-color:#1D5713;
+	position: fixed;
+}
+/* ####### MENU ####### */
+
+nav{ /* Estilo da barra de navegação */
+	height: 70px
+	font-size: 19px; /* Tamanho da fonte */
+}
+nav ul{/* Estilo da lista*/
+	list-style-type: none
+} 
+nav li{
+	float: left; /* Configurar o menu para horizontal*/
+	margin-left: 5px;
+	padding: 9px 10px; /* margem interna cima/baixo 5px e dir/esq 10px*/
+	color: white; /* cor das palavras do menu*/
+	font-weight: bold; /* fonte em negrito */
+	line-height: 3.2;
+}
+nav ul .BOTAO:hover{ /* config mouse sobre */
+	background-color: rgba(255,255,255,0.2);
+}
+.logo{ /*config logo*/
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 6px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+}
+	/* ###### CONTEUDO HOME PAGE ###### */
+
+main{ /* estilo conteudo principal */
+	width: 1000px;
+	height:600px;
+	margin: 0 auto; /* margem do conteudo */
+}
+#banner_img{
+	width: 1000px;
+	height: 300px;
+	float: left;
+	margin-top: 70px;
+}
+.conteudo{
+	margin-top: 20px;
+	float: left;
+}
+article{
+	float: left;
+	width: 69%;
+	height: 140px;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-align: justify;
+
+}
+#abertura{
+	float: left;
+	width: 30%;
+	height: 150px;
+}
+.fotosind{
+	float: left;
+	margin-top: 20px;
+	width: 30%;
+	height: 120px;
+}
+.yu1{
+	float: left;
+	width: 68%;
+	height: 120px;
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-right: 10px;
+	background-color: #3A9E3C;
+}
+.kuwa1{
+	float: left;
+	width: 68%;
+	height: 120px;
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-right: 10px;
+	background-color: #0B3EE5;
+}
+.hiei1{
+	float: left;
+	width: 68%;
+	height: 120px;
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-right: 10px;
+	background-color: #191919;
+}
+.kura1{
+	float: left;
+	width: 68%;
+	height: 120px;
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-right: 10px;
+	background-color: #B404AE;
+	margin-bottom: 20px;
+}
+footer{
+	background-color:#1D5713;
+	color: white;
+	text-align: center;
+	clear: both; /* tag para evitar que o rodapé pegue o estilo das outras sessões*/
+	padding: 10px 0;
+}
+/* ###### HISTORIA ###### */
+
+.cent{
+	text-align: center;
+	margin-top: 10px;
+}
+.imghistoria{
+	float: left;
+	margin-top: 20px;
+	width: 30%;
+	height: 120px;
+}
+.historiayu{
+	background-color: #171717;
+	float: left;
+	width: 68%;
+	height: 120px;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 5px;
+}
+.imghistoria2{
+	float: right;
+	margin-top: 20px;
+	width: 30%;
+	height: 120px;
+}
+.historiayu2{
+	margin-bottom: 5px;
+	background-color: #171717;
+	float: right;
+	width: 68%;
+	height: 120px;
+	margin-top: 20px;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+/* ###### GALERIA ###### */
+.galeriayu{
+	width: 1000px;
+	height: 150px;
+	margin-bottom: 10px;
+	float: left;
+}
+.galeria img{
+	padding: 30px;
+}
+/* ####### VIDEOS ####### */
+
+#episodios iframe{
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+/* ###### CURIOSIDADES ###### */
+
+.curiosidadeyu{
+	background-color: #171717;
+	float: left;
+	width: 68%;
+	height: 120px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
