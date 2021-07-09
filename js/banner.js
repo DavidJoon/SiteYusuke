@@ -2,7 +2,7 @@ img = new Array('1','2','3','4');
 
 indice = 0;
 
-setInterval("mudaImg()", 3000);
+setInterval("mudaImg()", 4000);
 	
 function mudaImg(i) {
 

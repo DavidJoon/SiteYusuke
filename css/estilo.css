@@ -9,160 +9,223 @@ body{
 }
 header{
 	width: 100%; /* Tamanho do header considerando a config responsiva */
-	height: 70px;
+	height: 68px;
 	background-color:#1D5713;
-	position: fixed;
 }
 /* ####### MENU ####### */
 
 nav{ /* Estilo da barra de navegação */
-	height: 70px
-	font-size: 19px; /* Tamanho da fonte */
+	height: 55px;
+	font-size: 18px; /* Tamanho da fonte */
+	width: 750px;
+	float: left;
+	margin-top: 5px;
 }
 nav ul{/* Estilo da lista*/
-	list-style-type: none
+	list-style-type: none;
 } 
 nav li{
 	float: left; /* Configurar o menu para horizontal*/
-	margin-left: 5px;
-	padding: 9px 10px; /* margem interna cima/baixo 5px e dir/esq 10px*/
+	margin-left: 50px;
+	 /* margem interna cima/baixo 5px e dir/esq 10px*/
 	color: white; /* cor das palavras do menu*/
 	font-weight: bold; /* fonte em negrito */
-	line-height: 3.2;
+	line-height: 3.0;
 }
 nav ul .BOTAO:hover{ /* config mouse sobre */
 	background-color: rgba(255,255,255,0.2);
+	border-radius: 10px;
+	width: 120px;
+	text-align: center;
 }
 .logo{ /*config logo*/
-	width: 200px;
-	height: 100px;
+	width: 150px;
+	height: 55px;
 	float: left;
-	margin-left: 15px;
-	margin-top: 6px;
+	margin-left: 10px;
 	margin-right: 20px;
 	margin-bottom: 25px;
+	margin-top: 5px;
 }
 	/* ###### CONTEUDO HOME PAGE ###### */
 
 main{ /* estilo conteudo principal */
 	width: 1000px;
-	height:600px;
+	height:290px;
 	margin: 0 auto; /* margem do conteudo */
 }
 #banner_img{
 	width: 1000px;
 	height: 300px;
 	float: left;
-	margin-top: 70px;
 }
 .conteudo{
-	margin-top: 20px;
+	margin-top: 30px;
 	float: left;
 }
+.tituloini{
+	margin-left: 100px;
+	width: 150px;
+}
 article{
+	background-color: #171717;
 	float: left;
-	width: 69%;
+	width: 60%;
 	height: 140px;
 	padding-top: 10px;
 	padding-left: 10px;
-	text-align: justify;
-
+	text-align: center;
+	margin-left: 2%;
+	border-radius: 15px;
 }
 #abertura{
+	margin-left: 35px;
 	float: left;
 	width: 30%;
 	height: 150px;
 }
 .fotosind{
+	margin-left: 35px;
 	float: left;
 	margin-top: 20px;
 	width: 30%;
 	height: 120px;
+	border-radius: 15px;
+}
+.arredondando{
+	border-radius: 15px;
 }
 .yu1{
 	float: left;
-	width: 68%;
+	width: 60%;
 	height: 120px;
 	margin-top: 20px;
 	padding-top: 30px;
 	padding-right: 10px;
 	background-color: #3A9E3C;
+	border-radius: 15px;
+	margin-left: 2%;
 }
 .kuwa1{
 	float: left;
-	width: 68%;
+	width: 60%;
 	height: 120px;
 	margin-top: 20px;
 	padding-top: 30px;
 	padding-right: 10px;
 	background-color: #0B3EE5;
+	border-radius: 15px;
+	margin-left: 2%;
 }
 .hiei1{
 	float: left;
-	width: 68%;
+	width: 60%;
 	height: 120px;
 	margin-top: 20px;
 	padding-top: 30px;
 	padding-right: 10px;
 	background-color: #191919;
+	border-radius: 15px;
+	margin-left: 2%;
 }
 .kura1{
 	float: left;
-	width: 68%;
+	width: 60%;
 	height: 120px;
 	margin-top: 20px;
 	padding-top: 30px;
 	padding-right: 10px;
 	background-color: #B404AE;
 	margin-bottom: 20px;
+	border-radius: 15px;
+	margin-left: 2%;
 }
 footer{
 	background-color:#1D5713;
 	color: white;
 	text-align: center;
 	clear: both; /* tag para evitar que o rodapé pegue o estilo das outras sessões*/
-	padding: 10px 0;
+	padding: 3px 0;
 }
 /* ###### HISTORIA ###### */
 
-.cent{
+.conteudohist{
+	float: left;
 	text-align: center;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .imghistoria{
 	float: left;
 	margin-top: 20px;
-	width: 30%;
-	height: 120px;
-}
-.historiayu{
-	background-color: #171717;
-	float: left;
-	width: 68%;
-	height: 120px;
-	margin-top: 20px;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	margin-bottom: 5px;
+	width: 300px;
+	height: 150px;
+	border-radius: 15px;
+	margin-left: 35px;
 }
 .imghistoria2{
 	float: right;
 	margin-top: 20px;
-	width: 30%;
-	height: 120px;
+	width: 300px;
+	height: 150px;
+	border-radius: 15px;
+	margin-right: 35px;
+}
+.historiayu{
+	background-color: #171717;
+	float: left;
+	width: 600px;
+	height: 150px;
+	margin-top: 15px;
+	border-radius: 15px;
+	margin-left: 2%;
 }
 .historiayu2{
-	margin-bottom: 5px;
+	text-align: center;
 	background-color: #171717;
 	float: right;
-	width: 68%;
-	height: 120px;
-	margin-top: 20px;
-	padding-top: 15px;
-	padding-right: 10px;
-	padding-bottom: 15px;
+	width: 600px;
+	height: 150px;
+	margin-top: 15px;
+	border-radius: 15px;
+	margin-right: 2%;
 }
+.titulohist{
+	margin-top: 5px;
+	margin-left: 400px;
+	float: left;
+	height: 50px;
+	width: 200px;
+}
+.sagadet{
+	margin-left: 250px;
+	margin-top: 5px;
+	float: left;
+	height: 50px;
+	width: 500px;
+}
+.sagator{
+	margin-left: 250px;
+	margin-top: 10px;
+	float: left;
+	height: 50px;
+	width: 500px;
+}
+.sagacap{
+	margin-left: 250px;
+	margin-top: 10px;
+	float: left;
+	height: 50px;
+	width: 500px;
+}
+.sagareis{
+	margin-left: 250px;
+	margin-top: 10px;
+	float: left;
+	height: 50px;
+	width: 500px;
+}
+
 /* ###### GALERIA ###### */
 .galeriayu{
 	width: 1000px;
@@ -179,17 +242,90 @@ footer{
 	padding-top: 10px;
 	padding-right: 10px;
 }
-
+.conteudo{
+	margin-top: 10px;
+	text-align: center;
+}
 /* ###### CURIOSIDADES ###### */
 
 .curiosidadeyu{
 	background-color: #171717;
 	float: left;
-	width: 68%;
-	height: 120px;
-	margin-top: 20px;
+	width: 60%;
+	height: 150px;
+	margin-top: 5px;
 	margin-bottom: 10px;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 20px;
+	margin-left: 2%;
+	border-radius: 15px;
+}
+.curi{
+	float: left;
+	width: 200px;
+	height: 50px;
+	margin-left: 400px;
+	margin-top: 5px;
+}
+.curi1{
+	float: left;
+	width: 500px;
+	height: 50px;
+	margin-left: 250px;
+	margin-top: 5px;
+}
+.curi2{
+	float: left;
+	width: 500px;
+	height: 50px;
+	margin-left: 250px;
+	margin-top: 5px;
+}
+.curi3{
+	float: left;
+	width: 500px;
+	height: 50px;
+	margin-left: 250px;
+	margin-top: 5px;
+}
+.curi4{
+	float: left;
+	width: 500px;
+	height: 50px;
+	margin-left: 250px;
+	margin-top: 5px;
+}
+.curi5{
+	float: left;
+	width: 500px;
+	height: 50px;
+	margin-left: 250px;
+	margin-top: 5px;
+}
+.curi6{
+	float: left;
+	width: 500px;
+	height: 50px;
+	margin-left: 250px;
+	margin-top: 5px;
+}
+.curi7{
+	float: left;
+	width: 500px;
+	height: 50px;
+	margin-left: 250px;
+	margin-top: 5px;
+}
+.curi8{
+	float: left;
+	width: 500px;
+	height: 50px;
+	margin-left: 250px;
+	margin-top: 5px;
+}
+.imgcuri{
+	float: left;
+	margin-top: 10px;
+	width: 300px;
+	height: 150px;
+	border-radius: 15px;
+	margin-left: 35px;
 }
